@@ -14,7 +14,7 @@ nav{
 
 }
 nav .menu{
-    max-width: 1250px;
+  max-width: 1250px;
  
     margin: auto;
     display: flex;
@@ -48,4 +48,117 @@ nav .menu{
 .menu ul li a {
 
     color: black;
+}
+.upper{
+    width: 1250px;
+    height: 800px;
+  
+   
+}
+ .images{
+    width: 800px;
+    height: 700px;
+    background:url(3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 20px 0 0 20px;
+   
+}
+
+ .content{
+    width: 400px;
+    height: 700px;
+    background-color: #FFD615;
+   float: left;
+   margin: 20px 0 0 0;
+}
+.features{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin: 80px 0 0  50px;
+    color: #C0A21F;
+}
+hr {
+    display: block;
+   width: 280px;
+
+    border: 3px solid black;
+  
+    padding: 0;
+    margin: 5px 0 0 50px;
+  }
+  .Love
+  {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin:20px 0 0 50px;
+  }
+  .Delicious {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin:0 0 0 50px;
+  }
+  .Tasty{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin:0 0 0 50px;
+  }
+.para{
+    margin:30px 0 0 50px;
+}
+button{
+    margin:40px 0 0 50px;
+    height: 50px;  
+    width: 150px; 
+    background: #000;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+button:hover{
+    color: black;
+    background: white;
+}
+button i{
+    padding-left: 15px;
+}
+.fow{
+    margin-top: 105px;
+    width: 200px;
+    height: 100px;
+    background-color: white;  
+    text-align: center;
+   border-left: 1px solid grey;
+    float: right;
+}
+.fow p{
+    padding-top:35px ;
+    font-family: 'Kanit', sans-serif;
+    color: gray;
+}
+.fow i{
+    padding-left: 20px;
+}
+.next{
+    margin-top: 105px;
+    width: 200px;
+    height: 100px;
+    background-color: white;  
+    text-align: center;
+   border-right: 1px solid wheat;
+    float: rigth;
+    font-family: 'Kanit', sans-serif;
+}
+.next p{
+    padding-top:35px ;
+    font-family: 'Kanit', sans-serif;
+    color: gray;
+}
+.next i{
+    padding-right: 20px;
 }
